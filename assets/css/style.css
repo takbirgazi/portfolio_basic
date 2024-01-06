@@ -233,3 +233,38 @@ body{
         box-shadow: 0px 0px 5px -3px;
     }
 }
+
+@media screen and (max-width:350px) {
+    .about {
+        max-width: 100%;
+        padding: 10px 15px;
+
+    }
+    .footer_style {
+        flex-direction: column;
+    }
+    .manue {
+        display: none;
+    }
+    .banner > img {
+        width: 100%;
+        height: auto;
+    }
+    .footer_column {
+        width: 100%;
+    }
+    .resume {
+        width: 100%;
+        margin: 50px auto 0px;
+    }
+    .manue {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #fff8f3;
+        padding: 10px;
+        box-shadow: 0px 0px 5px -3px;
+    }
+}
