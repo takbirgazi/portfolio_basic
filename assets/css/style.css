@@ -208,8 +208,38 @@ body{
 }
 
 /* Responsive  */
-
+/*
 @media screen and (max-width:750px) {
+    .banner {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+    .banner > img {
+        width: 100%;
+        height: auto;
+    }
+    .about_info {
+        align-items: normal;
+        flex-direction: column;
+    }
+    .skills {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .resume_body {
+        gap: 60px;
+        flex-direction: column;
+        padding: 0 10%;
+    }
+    .skill_card {
+        box-shadow: 0px 0px 5px -3px;
+    }
+}
+*/
+@media screen and (max-width:750px) {
+
     .banner {
         justify-content: center;
         flex-direction: column;
@@ -232,13 +262,13 @@ body{
     .skill_card {
         box-shadow: 0px 0px 5px -3px;
     }
-}
-
-@media screen and (max-width:350px) {
     .about {
         max-width: 100%;
         padding: 10px 15px;
 
+    }
+    .download_cv {
+        margin-bottom: 100px;
     }
     .footer_style {
         flex-direction: column;
